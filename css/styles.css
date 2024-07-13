@@ -2401,7 +2401,7 @@ body.int_white_bg {
 }
 
 #map-container.fullwidth-home-map .main-search-inner {
-  position: absolute;
+  /* position: absolute; */
   display: block;
   bottom: 60px;
   top: auto;

@@ -28,10 +28,23 @@ require_once('head.php'); ?>
                             <h2 class="text-left mb-4" data-aos="fade-up">About <br><span><?php print $siteName; ?> </span></h2>
                         </div>
                         <div class="pftext" style="font-family: " baskerville-display-pt", Georgia, Times, Times New Roman, serif;">
-                            <p data-aos="fade-up"><em><?php print $siteName; ?> was born out of a passion for design and a love for creating beautiful, functional spaces. Adiat Oke, our founder and lead designer, brings a wealth of experience and a keen eye for detail to every project. With a background in both interior design and architecture, Adiat combines creativity with technical expertise to deliver exceptional results.</em> </p>
+                            <p data-aos="fade-up"><em> Welcome to <?php print $siteName; ?>, where we transform spaces and elevate lifestyles through glamorous, beautiful, and luxurious home décor, promo<?php print $siteName; ?>ting intentional living.</em> </p>
 
-                            <p data-aos="fade-up"><em>We believe that interior design is more than just decorating; it's about creating environments that enhance the way you live. Our approach is client-focused, ensuring that your tastes, preferences, and lifestyle are at the heart of our designs. We work closely with you to understand your vision and bring it to life with style and sophistication.</em>
-                            </p>
+                            <p data-aos="fade-up"><em>At <?php print $siteName; ?>, we believe every space has a unique story to tell. Our design philosophy focuses on creating environments that are aesthetically pleasing, deeply personal, and functional. Drawing inspiration from diverse sources, our Design Director blends contemporary trends with timeless elegance to craft interiors that stand the test of time.</em></p>
+
+                            <p data-aos="fade-up"><em>Our collaborative, client-centered process ensures that every design resonates with your individuality. We take the time to understand your vision, lifestyle, and preferences, delivering results that exceed expectations. Whether you're looking to refresh a single room or undertake a complete renovation, <?php print $siteName; ?> is dedicated to bringing your dream interiors to life.</em></p>
+
+                            <p data-aos="fade-up"><em>Join us on a journey to transform your space into a true reflection of your personality and taste. Let <?php print $siteName; ?> bring your dream interiors to life.</em></p>
+
+                            <p data-aos="fade-up"><em><b>Adiat Oke – Design Director </b></em></p>
+
+                            <p data-aos="fade-up"><em>Adiat Oke, the visionary behind Interior Culture, is passionate about living intentionally and elevating one's standard of living. Inspired by the lack of relatable, brown-skinned home influencers when buying her own house, Adiat started this journey four years ago to inspire families and showcase beautiful, glamorous homes.</em></p>
+
+                            <p data-aos="fade-up"><em>Adiat has honed her skills over five years, working on a diverse array of projects from luxury homes to innovative commercial spaces. Her keen eye for detail, combined with a deep understanding of client needs, ensures that every project uniquely reflects style and functionality. Adiat's design philosophy revolves around creating environments that are both aesthetically pleasing and deeply personal, drawing inspiration from her love of beautiful, glamourous homes and dedication to quality, timeless interiors.</em></p>
+
+                            <p data-aos="fade-up"><em>Let Adiat and her Team transform your space into a sanctuary that reflects your personality and taste. Let us bring your dream interiors to life.</em></p>
+
+
                         </div>
                     </div>
 
@@ -40,7 +53,7 @@ require_once('head.php'); ?>
                             <img src="img/about-adiotoke.png" alt="About Adiat Oke">
                             <a href="about">
                                 <div class="text-overlay">
-                                    <h5 data-aos="fade-up">About</h5>
+                                    <h2 data-aos="fade-up">About</h2>
                                     <p data-aos="fade-up" class="font-newer"><em><?php print $siteName; ?></em></p>
                                 </div>
                             </a>
@@ -50,6 +63,8 @@ require_once('head.php'); ?>
                 </div>
             </div>
         </section>
+
+
 
         <?php require_once('footer.php'); ?>
 </body>

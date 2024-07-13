@@ -110,8 +110,8 @@
   /* Change this to the desired text color */
   background: rgba(255, 0, 0, 0.5);
   /* Semi-transparent background for better readability */
-  padding: 5px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 100px 10px;
   /* Optional: for rounded corners */
  }
 

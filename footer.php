@@ -40,12 +40,13 @@
        <div class="nav-footer">
         <ul>
          <li><a href="./">Home</a></li>
-         <li><a href="about">About Us</a></li>
+         <li><a href="about">About</a></li>
          <li><a href="services">Services</a></li>
         </ul>
         <ul class="nav-right">
          <li><a href="portfolio">Portfolio</a></li>
-         <li class="no-mgb"><a href="contact">Contact Us</a></li>
+         <li><a href="faq">FAQs</a></li>
+         <li class="no-mgb"><a href="contact">Contact</a></li>
         </ul>
        </div>
       </div>
@@ -128,6 +129,25 @@
  <script src="js/lightcase.js"></script>
  <script src="js/owl.carousel.js"></script>
  <script src="js/jquery.waypoints.min.js"></script>
+ <script>
+  $(window).on('scroll load', function() {
+   $("#header.cloned #logo img").attr("src", $('#header #logo img').attr('data-sticky-logo'));
+  });
+ </script>
+
+ <script>
+  var typed = new Typed('.typed', {
+   strings: ["Elegant Luxury ^4000", "Luxury Apartments ^2000", "Interior Culture ^2000", "Luxury Rooms ^4000"],
+   smartBackspace: false,
+   loop: true,
+   showCursor: true,
+   cursorChar: "|",
+   typeSpeed: 50,
+   backSpeed: 30,
+   startDelay: 800
+  });
+ </script>
+
 
  <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
  <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
